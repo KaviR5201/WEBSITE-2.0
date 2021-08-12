@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+
+.logo img {
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+    margin-left: 25px ;
+}
+.nav {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav span {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    margin-right: 50px;
+}
+h1{
+    color: #fff;
+    font-size: 100%;
+    margin-left: 25px;
+}
+.banner{
+    width: 100vw;
+    height:100vh;
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    margin-top: 100px;
+}
+.content h2{
+    text-align: center;
+    font-size: 100px;
+    color: black;
+}
+.content p{
+    font-size:medium;
+    text-align: center;
+}
+.clearfix{
+   margin-left: 50px;
+   font-size: medium;
+   margin-top: 25px;
+    text-align: center;
+}
+.sora-author-box-text-details{
+    background-color: aqua;
+}
+.banner h1{
+    color: black;
+    text-align: center;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+.nav a{
+    list-style: none;
+    display: inline-block;
+    max-width:   0 20px;
+    position: relative;
+}
+.nav a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left:0 ;
+    bottom:-10px;
+    transition: 0.5s;
+}
+.banner button{
+    width: 400px;
+    padding: 15px ;
+    text-align: center;
+    margin: 10px 550px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #3e4e63;
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.banner a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+footer {
+    background-color: #000;
+    height: 150px;
+}
+.footer-content h1{
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.footer-content p{
+    color: #fff;
+    margin-left:45%;
+}
+.footer-content img {
+    height: 40px;
+    width: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.footer-content span img{
+    align-items: center;
+    margin-left: 48%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-bottom p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
